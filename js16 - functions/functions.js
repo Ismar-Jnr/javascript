@@ -5,7 +5,7 @@ let total = 0;
 //são chamadas de function anonymous ou function expression
 const sum = function(number1, number2/*Parametros da função*/) {
     let total = number1 + number2; //sempre 
-    return total;
+    return number1 + number2;
 };
 /*******************/
 
@@ -26,7 +26,7 @@ sum(565, 312);
 let teste1 = 34;
 let teste2 = 25;
 
-//sum(teste1, teste2);
+sum(teste1, teste2);
 
 console.log(`o numero 1 é ${teste1}`);
 console.log(`o numero 2 é ${teste2}`);
